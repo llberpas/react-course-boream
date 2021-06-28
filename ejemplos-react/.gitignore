@@ -1,0 +1,37 @@
+## Intellij & Eclipse
+.idea/
+.idea_modules/
+.metadata
+.project
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# Created by .ignore support plugin (hsz.mobi)
+
+# Netbeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nbactions-*.xml
+.nb-gradle/
+.nb-gradle-properties
+
+
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+**/node_modules
+
+
