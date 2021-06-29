@@ -1,13 +1,17 @@
-import Componentes from './Components'
-import CmpDeClase from './CmpDeClase'
+import Componentes from './componentes/Components'
+import CmpDeClase from './componentes/CmpDeClase'
+import PropYState from './props-state-eventos/PropsYState'
+import CondicionalesYListas from './condicionales-y-listas/CondicionalesYListas'
+import CodigoSecreto from './ejercicios/CodigoSecreto'
 
 const App = () => {
   return (
     <div>
-      <h1>
-        <Componentes />
-        <CmpDeClase />
-        </h1>
+        {/* <Componentes />
+        <CmpDeClase /> */}
+        {/* <PropYState /> */}
+        {/* <CondicionalesYListas /> */}
+        <CodigoSecreto />
     </div>
   )
 }
