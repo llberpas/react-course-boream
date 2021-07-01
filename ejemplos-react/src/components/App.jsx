@@ -8,6 +8,10 @@ import Formulario from './formularios/Formulario'
 import UseEffect from './use-effect/UseEffect'
 import PropChildren from './prop-children/PropChildren'
 import UseRef from './use-ref/UseRef'
+import Suspense from './suspense/Suspense'
+import ContextApi from './ContextApi/ContextApi'
+import OtrosHooks from './otros-hooks/OtrosHooks'
+import FormularioConHooks from './otros-hooks/FormularioConHooks'
 
 const App = () => {
   return (
@@ -21,7 +25,11 @@ const App = () => {
         {/* <Formulario /> */}
         {/* <UseEffect /> */}
         {/* <PropChildren /> */}
-        <UseRef />
+        {/* <UseRef /> */}
+        {/* <Suspense /> */}
+        {/* <ContextApi /> */}
+        {/* <OtrosHooks /> */}
+        <FormularioConHooks />
     </>
   )
 }
