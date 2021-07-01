@@ -17,9 +17,14 @@ Crear un proyecto limpio que usaremos como plantilla:
   npm install --save-dev webpack webpack-cli webpack-dev-server
   npm install --save-dev css-loader style-loader html-webpack-plugin
   npm install --save-dev prop-types
+  npm install --save-dev copy-webpack-plugin
 
 Creamos los ficheros correspondientes
 
 Levantar sevidor en local
 
   npx http-server
+
+Hooks de usuarios
+
+  https://nikgraf.github.io/react-hooks/

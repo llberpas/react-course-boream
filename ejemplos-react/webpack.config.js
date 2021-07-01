@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const entryPath = path.join(__dirname, 'src')
 const outputPath = path.join(__dirname, 'dist')
 
@@ -28,6 +29,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Curso de React',
       template: path.join(entryPath, 'index.html')
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {from: path.join(entryPath, 'assets'), to: path.join(outputPath, 'assets')}
+      ]
     })
   ],
   resolve: {

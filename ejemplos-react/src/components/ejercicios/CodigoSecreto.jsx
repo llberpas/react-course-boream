@@ -25,7 +25,7 @@ const CodigoSecreto = () => {
   }
 
   return (
-    <div>
+    <React.Fragment>
       <div onClick={handleClick}>
         <div>
           {listaBotones}
@@ -38,7 +38,7 @@ const CodigoSecreto = () => {
       <div>
         <div>{codigoSecreto === codigo ? 'CODIGO OK' : codigo}</div>
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 
