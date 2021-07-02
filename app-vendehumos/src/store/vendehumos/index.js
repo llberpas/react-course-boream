@@ -5,10 +5,10 @@ const initalState = {
 }
 
 const addVendehumos = (state, payload) => {
-  const nuevoCendehumos = [...state.vendehumos, payload]
+  const nuevoVendehumos = [...state.vendehumos, payload]
   return {
     ... state,
-    vendehumos: nuevoCendehumos
+    vendehumos: nuevoVendehumos
   }
 }
 
