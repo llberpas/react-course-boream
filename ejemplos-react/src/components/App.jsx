@@ -12,6 +12,7 @@ import Suspense from './suspense/Suspense'
 import ContextApi from './ContextApi/ContextApi'
 import OtrosHooks from './otros-hooks/OtrosHooks'
 import FormularioConHooks from './otros-hooks/FormularioConHooks'
+import Hoc from './hoc/Hoc'
 
 const App = () => {
   return (
@@ -29,7 +30,8 @@ const App = () => {
         {/* <Suspense /> */}
         {/* <ContextApi /> */}
         {/* <OtrosHooks /> */}
-        <FormularioConHooks />
+        {/* <FormularioConHooks /> */}
+        <Hoc />
     </>
   )
 }

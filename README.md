@@ -8,9 +8,10 @@ Crear un proyecto de manera automatica (incluye una barbaridad de librerias y de
 
   npx create-react-app reactjs-create-react-app-lab
 
-Crear un proyecto limpio que usaremos como plantilla:
+Crear un proyecto limpio que usaremos como plantilla (recomendado):
 
   mkdir proyecto-plantilla
+  cd proyecto-plantilla
   npm init -y
   npm install --save react react-dom
   npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader @babel/plugin-transform-runtime
@@ -18,12 +19,22 @@ Crear un proyecto limpio que usaremos como plantilla:
   npm install --save-dev css-loader style-loader html-webpack-plugin
   npm install --save-dev prop-types
   npm install --save-dev copy-webpack-plugin
+  npm install --save-dev react-router-dom
+  npm install --save-dev redux
+  npm install --save-dev react-redux
 
-Creamos los ficheros correspondientes
+Build del proyecto
+
+  npm run build
 
 Levantar sevidor en local
 
+  cd dist
   npx http-server
+
+o, con npm
+
+  npm start
 
 Hooks de usuarios
 
